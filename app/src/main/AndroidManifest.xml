@@ -10,7 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Finconc">
         <activity
-            android:name=".SecondActivity"
+            android:name=".SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
