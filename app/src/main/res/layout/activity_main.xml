@@ -7,34 +7,53 @@
     android:padding="16dp"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/btn_home"
-        android:layout_width="wrap_content"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btn_home"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/btn_profile"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btn_profile"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btn_profile"
-        app:layout_constraintBottom_toBottomOf="@id/btn_home"
-        app:layout_constraintEnd_toStartOf="@id/btn_settings"
-        app:layout_constraintStart_toEndOf="@id/btn_home"
-        app:layout_constraintTop_toTopOf="@id/btn_home" />
-
-    <Button
-        android:id="@+id/btn_settings"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btn_settings"
-        app:layout_constraintBottom_toBottomOf="@id/btn_profile"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/btn_profile"
-        app:layout_constraintTop_toTopOf="@id/btn_profile" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btn_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_home"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/btn_profile"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_profile"
+            app:layout_constraintBottom_toBottomOf="@id/btn_home"
+            app:layout_constraintEnd_toStartOf="@id/btn_settings"
+            app:layout_constraintStart_toEndOf="@id/btn_home"
+            app:layout_constraintTop_toTopOf="@id/btn_home" />
+
+        <Button
+            android:id="@+id/btn_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_settings"
+            app:layout_constraintBottom_toBottomOf="@id/btn_profile"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/btn_profile"
+            app:layout_constraintTop_toTopOf="@id/btn_profile" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttons" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
