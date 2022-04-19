@@ -5,4 +5,12 @@
     <string name="btn_settings">Settings</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="majors">
+        <item>Select Major</item>
+        <item>Informatics</item>
+        <item>Information System</item>
+        <item>Civil Engineering</item>
+        <item>Geology</item>
+    </string-array>
 </resources>

@@ -1,4 +1,4 @@
-package com.homindolentrahar.finconc.settings
+package com.homindolentrahar.finconc.ui.settings
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

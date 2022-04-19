@@ -1,13 +1,12 @@
 package com.homindolentrahar.finconc
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import androidx.fragment.app.Fragment
-import com.homindolentrahar.finconc.home.HomeFragment
-import com.homindolentrahar.finconc.profile.ProfileFragment
-import com.homindolentrahar.finconc.settings.SettingsFragment
+import com.homindolentrahar.finconc.ui.home.HomeFragment
+import com.homindolentrahar.finconc.ui.profile.ProfileFragment
+import com.homindolentrahar.finconc.ui.settings.SettingsFragment
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

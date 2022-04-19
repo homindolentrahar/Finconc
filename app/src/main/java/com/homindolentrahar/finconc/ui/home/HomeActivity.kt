@@ -1,9 +1,10 @@
-package com.homindolentrahar.finconc
+package com.homindolentrahar.finconc.ui.home
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
+import com.homindolentrahar.finconc.R
 
 class HomeActivity : AppCompatActivity() {
     private val btnBack = findViewById<Button>(R.id.btn_back)

@@ -1,4 +1,4 @@
-package com.homindolentrahar.finconc.profile
+package com.homindolentrahar.finconc.ui.profile
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
