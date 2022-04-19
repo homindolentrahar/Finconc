@@ -6,16 +6,20 @@
         <entry key="..\:/Code_Work/Android/Finconc/app/src/main/res/drawable/bg_btn_back.xml" value="0.114" />
         <entry key="..\:/Code_Work/Android/Finconc/app/src/main/res/drawable/name.xml" value="0.134" />
         <entry key="..\:/Code_Work/Android/Finconc/app/src/main/res/layout/activity_forgot_password.xml" value="0.2" />
-        <entry key="..\:/Code_Work/Android/Finconc/app/src/main/res/layout/activity_home.xml" value="0.21932449764856776" />
+        <entry key="..\:/Code_Work/Android/Finconc/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/Code_Work/Android/Finconc/app/src/main/res/layout/activity_login.xml" value="0.152" />
         <entry key="..\:/Code_Work/Android/Finconc/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Code_Work/Android/Finconc/app/src/main/res/layout/activity_profile.xml" value="0.2" />
         <entry key="..\:/Code_Work/Android/Finconc/app/src/main/res/layout/activity_register.xml" value="0.176" />
         <entry key="..\:/Code_Work/Android/Finconc/app/src/main/res/layout/activity_second.xml" value="0.1" />
         <entry key="..\:/Code_Work/Android/Finconc/app/src/main/res/layout/activity_settings.xml" value="0.16" />
+        <entry key="..\:/Code_Work/Android/Finconc/app/src/main/res/layout/fragment_history.xml" value="0.2201795639162035" />
         <entry key="..\:/Code_Work/Android/Finconc/app/src/main/res/layout/fragment_home.xml" value="0.2201795639162035" />
+        <entry key="..\:/Code_Work/Android/Finconc/app/src/main/res/layout/fragment_payment.xml" value="0.21846943138093203" />
         <entry key="..\:/Code_Work/Android/Finconc/app/src/main/res/layout/fragment_profile.xml" value="0.20863616930312098" />
+        <entry key="..\:/Code_Work/Android/Finconc/app/src/main/res/layout/fragment_setting.xml" value="0.2201795639162035" />
         <entry key="..\:/Code_Work/Android/Finconc/app/src/main/res/layout/fragment_settings.xml" value="0.20863616930312098" />
+        <entry key="..\:/Code_Work/Android/Finconc/app/src/main/res/menu/nav_menu.xml" value="0.2" />
       </map>
     </option>
   </component>

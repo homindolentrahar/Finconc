@@ -15,6 +15,10 @@ class ForgotPasswordActivity : AppCompatActivity() {
 
         setContentView(binding.root)
 
+        binding.btnBack.setOnClickListener {
+            finish()
+        }
+
         binding.btnRecover.setOnClickListener {
             val email = binding.editEmail.text.toString()
 
