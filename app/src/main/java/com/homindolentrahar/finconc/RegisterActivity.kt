@@ -36,14 +36,5 @@ class RegisterActivity : AppCompatActivity() {
                 startActivity(this)
             }
         }
-
-        binding.btnTextLogin.setOnClickListener {
-            Intent(this, LoginActivity::class.java).apply {
-                flags = Intent.FLAG_ACTIVITY_NEW_TASK
-                startActivity(this)
-
-                finish()
-            }
-        }
     }
 }
