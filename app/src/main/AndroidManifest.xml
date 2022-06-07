@@ -10,13 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Finconc">
         <activity
-            android:name="com.homindolentrahar.finconc.ui.settings.SettingsActivity"
+            android:name=".CalculateActivity"
             android:exported="false" />
         <activity
-            android:name="com.homindolentrahar.finconc.ui.profile.ProfileActivity"
+            android:name=".ui.settings.SettingsActivity"
             android:exported="false" />
         <activity
-            android:name="com.homindolentrahar.finconc.ui.home.HomeActivity"
+            android:name=".ui.profile.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.home.HomeActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

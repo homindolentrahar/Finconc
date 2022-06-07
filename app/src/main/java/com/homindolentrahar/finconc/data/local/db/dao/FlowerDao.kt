@@ -6,17 +6,17 @@ import com.homindolentrahar.finconc.data.local.db.model.FlowerEntity
 @Dao
 interface FlowerDao {
     @Query("SELECT * FROM flowerentity")
-    suspend fun getAllFlowers(): List<FlowerEntity>
+    fun getAllFlowers(): List<FlowerEntity>
 
     @Query("SELECT * FROM flowerentity WHERE id = :id")
-    suspend fun getSingleFlower(id: Int): FlowerEntity
+    fun getSingleFlower(id: Int): FlowerEntity
 
     @Insert
-    suspend fun insertFlower(flower: FlowerEntity)
+    fun insertFlower(flower: FlowerEntity)
 
     @Update
-    suspend fun updateFlower(flower: FlowerEntity)
+    fun updateFlower(flower: FlowerEntity)
 
     @Delete
-    suspend fun deleteFlower(flower: FlowerEntity)
+    fun deleteFlower(flower: FlowerEntity)
 }

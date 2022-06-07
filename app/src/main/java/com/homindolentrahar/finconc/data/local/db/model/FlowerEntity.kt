@@ -7,7 +7,7 @@ import androidx.room.PrimaryKey
 @Entity
 data class FlowerEntity(
     @PrimaryKey(autoGenerate = true)
-    val id: String,
+    val id: Int,
     val name: String,
     val image: String
 )
